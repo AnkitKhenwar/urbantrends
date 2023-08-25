@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import { AiOutlineShoppingCart } from 'react-icons/Ai';
-import {ImCross} from 'react-icons/Im'
-import {MdOutlineAccountCircle} from 'react-icons/Md'
+import { AiOutlineShoppingCart } from 'react-icons/ai';
+import {ImCross} from 'react-icons/im'
+import {MdOutlineAccountCircle} from 'react-icons/md'
 import { useRef } from 'react';
 const Navbar = ({user,Logout}) => {
   const toggleCart = () => {
