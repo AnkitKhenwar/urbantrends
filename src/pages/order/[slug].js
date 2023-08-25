@@ -4,7 +4,7 @@ import { useState } from 'react'
 import mongoose from 'mongoose'
 import { ToastContainer,toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import {checkout} from '../checkoutpayment'
+import { checkout } from '@/checkoutpayment'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 const Slug = ({product}) => {
