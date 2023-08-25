@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import LoadingBar from 'react-top-loading-bar'
