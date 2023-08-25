@@ -1,5 +1,5 @@
 import {loadStripe} from "@stripe/stripe-js"
-import Product from "../models/Product"
+import Product from "./src/models/Product"
 
 
 export async function checkout({lineItems,successUrl}) {
