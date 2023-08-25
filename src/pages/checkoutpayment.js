@@ -18,13 +18,5 @@ export async function checkout({lineItems,successUrl}) {
 		cancelUrl: window.location.origin
     })
 }
-export async function getServerSideProps(context) {
-    if (!mongoose.connections[0].readyState) {
-    await mongoose.connect(process.env.MONGO_URI);
-    }
-    let products = await Product.find({ slug: context.query.slug });
-    return {
-    props: { products: JSON.parse(JSON.stringify(products)) },
-    };
-    }
+
   
