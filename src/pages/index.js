@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import { LiaTshirtSolid } from "react-icons/Lia";
-import { PiHoodieLight } from "react-icons/Pi";
-import { TbShirtSport } from "react-icons/Tb";
+import { LiaTshirtSolid } from "react-icons/lia";
+import { PiHoodieLight } from "react-icons/pi";
+import { TbShirtSport } from "react-icons/tb";
 import Link from "next/link";
 
 export default function Home() {
